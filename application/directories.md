@@ -10,8 +10,8 @@ scaffoling and cache directoring comes pre-configured. Let's review default dire
 | /application/classes/Commands/    | You can create your console commands here (manually or via scaffoling) given them namespace "Commands";                            
 | /application/classes/Controllers/ | Application frontend controllers, default namespace "Controllers".                          
 | /application/classes/Database/    | Database entities (ORM and ODM) or data models, default namespace "Database".                          
-| /application/classes/Middlewares/ | Application specific HttpDispatcher middlewares, default namespace "middlewares". Do not forget to register middleware in http config.
-| /application/classes/Requests/    | RequestFilters used to read request data, validate it and map it into appropriate data entity field. Default namespace "Requests".    
+| /application/classes/Middlewares/ | Application specific HttpDispatcher middlewares, default namespace "Middlewares". Do not forget to register middleware in http config.
+| /application/classes/Requests/    | Request Filters used to read request data, validate it and map it into appropriate data entity field. Default namespace "Requests".    
 | /application/classes/Services/    | Service layer classes, used to manage you data entities creation, saving and fetching and much more, namespace "Services".       
 | **/application/config/**          | Configuration files used by components.                           
 | /application/migrations/          | Default location for migrations                            
